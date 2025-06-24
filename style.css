@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#hero__search{
+    border-radius: 30px;
+}
+#card__title{
+    font-size: 16px;
+}
+#footer__emile{
+    width: 50%;
+    }
+@media (max-width:1154px){
+    #phone__number{
+        display: none;
+    }
+
+}
+@media (max-width:992px){
+    #header__profil{
+        display: none;
+    }
+    #hero__search{
+        border-radius: 0;
+    }
+    #grid__rent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr)
+    }
+}
+@media (max-width:767px){
+    #founder{
+    display: flex;
+    justify-content: center;
+    }
+    #footer__emile{
+    width: 100%;
+    }
+}
